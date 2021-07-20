@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&family=Zen+Tokyo+Zoo&display=swap');
+
+	body
+	{
+	font-family: 'Ubuntu', 'Roboto Slab', 'Zen Tokyo Zoo';
+	}
+
+	.container 
+	{
+	background: #E5E4E2;
+	width: 95%;
+	margin:auto;
+	}
+	table
+	{
+	width:80%;
+	}
+	th
+	{
+	background:black;
+	color:white;
+	}
+	td
+	{
+	text-align:center;
+	color:darkblue;
+	}
+	
+	#header1
+	{
+	text-align:center;
+	color: white;
+	background: #5E7D7E;
+	border: 2px dotted black;
+	padding: 20px;
+	}
+
+	#header2
+	{
+	text-align:center;
+	background: #5E7D7E;
+	color:white;
+	padding: 10px;
+	}
+
+	#header3
+	{
+	background: #5E7D7E;
+	color:white;
+	padding: 5px;
+	}
+
+	#menu
+	{
+	list-style-type:none;
+	text-align:right;
+	margin:0px;
+	overflow:hidden;
+	background: #5E7D7E;
+	}
+
+	#menu li
+	{
+	display:inline;
+	padding:15px;
+	}
+
+	#menu a
+	{
+	color:white;
+	font-size:1.2rem;
+	text-decoration:none;
+	}
+
+	a li:hover
+	{
+	color:darkblue;
+	background:yellow;
+	}
+
+	#formdiv
+	{
+	margin-top:5px;
+	width:50%;
+	float:left;
+	}
+
+	#picdiv
+	{
+	margin-top:5px;
+	width:50%;
+	float:left;
+	margin:auto;
+	}
+
+	#formdiv [type="text"],textarea { font-family:cursive; color:blue;}
+
+	footer
+	{
+	background:#5E7D7E;
+	color:white;
+	padding:5px;
+	}
+
+	.clear
+	{
+	clear:both;
+	}
+
+	@media screen and (max-width: 700px)
+	{
+		body
+		{
+		display:none;
+		}
+	}
